@@ -1,0 +1,58 @@
+.layanan {
+  .jumbotron {
+    background-image: url(/images/Ellipse\ 13.png);
+    height: 700px;
+    margin-top: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .konten {
+      margin-top: 50px;
+
+      .tentang {
+        border-radius: 50px;
+        background-color: rgba(241, 108, 47, 1);
+        font-size: 24px;
+        padding: 10px 20px;
+      }
+
+      p {
+        font-weight: 500;
+      }
+      .dapatkan {
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: ub;
+      }
+      @include media-breakpoint-up(sm) {
+        p {
+          font-size: 5vh;
+          font-weight: 500;
+        }
+
+        .dapatkan {
+          font-size: 30px;
+          font-weight: 300;
+          text-decoration: underline;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}
+.services {
+  .garis {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.layanan {
+  @include media-breakpoint-down(md) {
+    .jumbotron {
+      height: 500px;
+
+      .tentang {
+        padding: 15px 5px;
+      }
+    }
+  }
+}

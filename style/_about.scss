@@ -1,0 +1,27 @@
+.tentang-perusahaan {
+  .jumbotron {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.54),
+        rgba(37 25 255 / 69%)
+      ),
+      url(/images/jumbotron2.png);
+    height: 680px;
+    margin-top: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .konten {
+      margin-top: 160px;
+      .tentang {
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+.visi-misi {
+  hr {
+    border: 1px solid #f16c2f;
+    width: 75%;
+  }
+}

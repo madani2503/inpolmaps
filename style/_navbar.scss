@@ -1,0 +1,47 @@
+.navbar-store {
+  padding-top: 15px;
+
+  @include media-breakpoint-down(md) {
+    background-color: #fff !important;
+  }
+
+  .nav-item {
+    i {
+      color: #f16c2f;
+    }
+    .nav-link:hover::after {
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+        content: "";
+        display: block;
+        border-bottom: 3px solid #0d1121;
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+
+  .tengah {
+    font-weight: 400;
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.navbar-brand {
+  img {
+    height: 40px;
+    width: 150px;
+  }
+}
+
+.navbar-nav {
+  img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 100px;
+  }
+}
